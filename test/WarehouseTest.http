@@ -1,0 +1,6 @@
+@productId = e1a6f28d-6a18-4a3c-8b56-47c3f46d2c2a
+@amount = 5
+
+### Set quantity of product
+GET http://localhost:4004/odata/v4/warehouse/setQuantity(productId={{productId}},amount={{amount}})
+Content-Type: application/json
